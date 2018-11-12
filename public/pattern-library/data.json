@@ -124,47 +124,6 @@
                     "title": "Primary Navigation"
                 }
             ]
-        },
-        {
-            "name": "tabs",
-            "title": "Tabs",
-            "components": [
-                {
-                    "name": "default",
-                    "title": "Tab",
-                    "width": "half",
-                    "group": "tabs"
-                }
-            ]
-        },
-        {
-            "name": "terminal",
-            "title": "Terminal",
-            "components": [
-                {
-                    "group": "terminal",
-                    "name": "default",
-                    "title": "Mono",
-                    "width": "half",
-                    "options": {
-                        "sample_dark_background": true
-                    }
-                }
-            ]
-        },
-        {
-            "name": "misc",
-            "title": "Miscellaneous",
-            "components": [
-                {
-                    "group": "misc",
-                    "name": "default",
-                    "title": "Modal",
-                    "options": {
-                        "sample_min_height": 800
-                    }
-                }
-            ]
         }
     ],
     "version": "1.9.5"
