@@ -1,3 +1,8 @@
 # Introduction
 
-Add your intro copy in `./pages/intro.md` or alternatively if you do not want a intro (or any other) page set `content` in your `data.json` file to `null`.
+Use the left hand menu to browse to the various styles that are to be implemented into wiserconnect.co.uk
+
+# Key design choices
+
+* __Single Page__ application.
+* __3 Click Rule__ you should be able to get to any page on the website within 3 clicks.
