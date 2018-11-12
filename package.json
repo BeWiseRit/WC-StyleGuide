@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "postinstall": "npm install express"
+    "postinstall": "npm install express",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",

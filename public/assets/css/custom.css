@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logo {
+    background: url('../images/logo.svg') no-repeat top left;
+    background-size: contain;
+}
+
+.bold {
+    font-weight: 700;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.regular {
+    font-weight: 200;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.semibold {
+    font-weight: 500;
+    font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+.bg-primary {
+    color: #fff;
+    background-color: #832216 !important
+}
+
+a.bg-primary:focus,
+a.bg-primary:hover,
+button.bg-primary:focus,
+button.bg-primary:hover {
+    background-color: #832216 !important
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #832216;
+    border-color: #832216
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #b47a73;
+    border-color: #8f382d
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #00cdc3;
+    border-color: #00cdc3
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #66e1db;
+    border-color: #00cdc3
+}
+
+.btn-tertiary {
+    color: #832216;
+    background-color: #ffc73f;
+    border-color: #ffc73f
+}
+
+.btn-tertiary:hover {
+    color: #832216;
+    background-color: #ffdd8b;
+    border-color: #ffc73f
+}

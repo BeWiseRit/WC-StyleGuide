@@ -1,0 +1,1 @@
+The project uses the Source Sans Pro typeface served by TypeKit.

@@ -30,7 +30,9 @@
         }
     },
     "assets": {
-        "css": [],
+        "css": [
+            "../assets/css/custom.css"
+        ],
         "js": []
     },
     "font_libraries": {
@@ -56,15 +58,20 @@
             "components": [
                 {
                     "group": "branding",
-                    "name": "default",
+                    "name": "color-scheme",
                     "title": "Colour Scheme",
                     "type": "colors",
                     "colors": [
-                        "#000000,#666666",
-                        "#15455B,#3C7189",
-                        "#218597,#A1CAD5",
-                        "#F3F3F3,#FFFFFF"
-                    ]
+                        "#832216",
+                        "#00cdc3",
+                        "#ffc73f"
+                        ]
+                },
+                {
+                    "group": "branding",
+                    "name": "logo",
+                    "title": "Logo",
+                    "width": "half"
                 }
             ]
         },
@@ -74,8 +81,20 @@
             "components": [
                 {
                     "group": "typography",
-                    "name": "default",
+                    "name": "regular",
                     "title": "Regular",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "semibold",
+                    "title": "Semibold",
+                    "width": "half"
+                },
+                {
+                    "group": "typography",
+                    "name": "bold",
+                    "title": "Bold",
                     "width": "half"
                 }
             ]
