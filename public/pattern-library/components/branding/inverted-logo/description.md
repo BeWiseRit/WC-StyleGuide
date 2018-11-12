@@ -1,0 +1,1 @@
+The inverted logo used on the fixed navigation bar (if required).

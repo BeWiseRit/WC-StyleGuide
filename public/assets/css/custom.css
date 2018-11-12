@@ -6,8 +6,7 @@ body {
 }
 
 .logo {
-    background: url('../images/logo.svg') no-repeat top left;
-    background-size: contain;
+    background-size: 100% auto;
 }
 
 .bold {
@@ -28,14 +27,14 @@ body {
 
 .bg-primary {
     color: #fff;
-    background-color: #832216 !important
+    background-color: #791714 !important
 }
 
 a.bg-primary:focus,
 a.bg-primary:hover,
 button.bg-primary:focus,
 button.bg-primary:hover {
-    background-color: #832216 !important
+    background-color: #791714 !important
 }
 
 .btn {
@@ -60,8 +59,8 @@ button.bg-primary:hover {
 
 .btn-primary {
     color: #fff;
-    background-color: #832216;
-    border-color: #832216
+    background-color: #791714;
+    border-color: #791714
 }
 
 .btn-primary:hover {
@@ -83,13 +82,13 @@ button.bg-primary:hover {
 }
 
 .btn-tertiary {
-    color: #832216;
+    color: #791714;
     background-color: #ffc73f;
     border-color: #ffc73f
 }
 
 .btn-tertiary:hover {
-    color: #832216;
+    color: #791714;
     background-color: #ffdd8b;
     border-color: #ffc73f
 }

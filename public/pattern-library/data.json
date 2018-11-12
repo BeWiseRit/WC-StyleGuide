@@ -62,7 +62,7 @@
                     "title": "Colour Scheme",
                     "type": "colors",
                     "colors": [
-                        "#832216",
+                        "#791714",
                         "#00cdc3",
                         "#ffc73f"
                         ]
@@ -72,6 +72,15 @@
                     "name": "logo",
                     "title": "Logo",
                     "width": "half"
+                },
+                {
+                    "group": "branding",
+                    "name": "inverted-logo",
+                    "title": "Inverted Logo",
+                    "width": "half",
+                    "options": {
+                        "sample_dark_background": true
+                    }
                 }
             ]
         },
@@ -83,12 +92,6 @@
                     "group": "typography",
                     "name": "regular",
                     "title": "Regular",
-                    "width": "half"
-                },
-                {
-                    "group": "typography",
-                    "name": "semibold",
-                    "title": "Semibold",
                     "width": "half"
                 },
                 {
