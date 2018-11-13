@@ -32,7 +32,7 @@ body {
 
 
 .bg-primary {
-    color: #fff;
+    color: #fff !important;
     background-color: #791714 !important
 }
 
@@ -64,39 +64,39 @@ button.bg-primary:hover {
 
 
 .btn-primary {
-    color: #fff;
-    background-color: #791714;
-    border-color: #791714
+    color: #fff !important;
+    background-color: #791714 !important;
+    border-color: #791714 !important;
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #b47a73;
-    border-color: #8f382d
+    color: #fff !important;
+    background-color: #b47a73 !important;
+    border-color: #8f382d !important;
 }
 
 .btn-secondary {
-    color: #fff;
-    background-color: #00cdc3;
-    border-color: #00cdc3
+    color: #fff !important;
+    background-color: #00cdc3 !important;
+    border-color:  #00cdc3 !important;
 }
 
 .btn-secondary:hover {
-    color: #fff;
-    background-color: #66e1db;
-    border-color: #00cdc3
+    color: #fff !important;
+    background-color: #66e1db !important;
+    border-color: #00cdc3 !important;
 }
 
 .btn-tertiary {
-    color: #791714;
-    background-color: #ffc73f;
-    border-color: #ffc73f
+    color: #791714 !important;
+    background-color: #ffc73f !important;
+    border-color: #ffc73f !important;
 }
 
 .btn-tertiary:hover {
-    color: #791714;
-    background-color: #ffdd8b;
-    border-color: #ffc73f
+    color: #791714 !important;
+    background-color: #ffdd8b !important;
+    border-color: #ffc73f !important;
 }
 
 .banner-header {
@@ -117,7 +117,7 @@ button.bg-primary:hover {
   }
   
   .navbar .dropdown-menu {
-    border: #fff;
+    border: #fff !important;
   }
   
   /* breakpoint and up - mega dropdown styles */
