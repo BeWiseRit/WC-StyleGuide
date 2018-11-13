@@ -31,7 +31,8 @@
     },
     "assets": {
         "css": [
-            "../assets/css/custom.css"
+            "../assets/css/custom.css",
+            "../assets/css/bootstrap4.1.3.min.css"
         ],
         "js": []
     },
@@ -128,6 +129,11 @@
                     "group": "navigation",
                     "name": "default",
                     "title": "Primary Navigation"
+                },
+                {
+                    "group": "navigation",
+                    "name": "alternative",
+                    "title": "Alternative Navigation"
                 }
             ]
         }

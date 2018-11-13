@@ -98,3 +98,65 @@ button.bg-primary:hover {
     background-color: #ffdd8b;
     border-color: #ffc73f
 }
+
+.banner-header {
+    background-image: url(../img/header-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .jumbotron-bg {
+    background-image: url(../img/bg.png);
+    background-position: center;
+    min-height: 540px !important;
+  }
+  
+  /* adds some margin below the link sets  */
+  .navbar .dropdown-menu div[class*="col"] {
+    margin-bottom: 1rem;
+  }
+  
+  .navbar .dropdown-menu {
+    border: #fff;
+  }
+  
+  /* breakpoint and up - mega dropdown styles */
+  @media screen and (min-width: 992px) {
+    /* remove the padding from the navbar so the dropdown hover state is not broken */
+    .navbar {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+  
+    /* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+    .navbar .nav-item {
+      padding: 0.5rem 0.5rem;
+    }
+  
+    /* makes the dropdown full width  */
+    .navbar .dropdown {
+      position: static;
+    }
+  
+    .navbar .dropdown-menu {
+      width: 100%;
+      left: 0;
+      right: 0;
+      margin: 0;
+      /*  height of nav-item  */
+      display: block;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.3s linear;
+    }
+  
+    /* shows the dropdown menu on hover */
+    .navbar .dropdown:hover .dropdown-menu,
+    .navbar .dropdown .dropdown-menu:hover {
+      display: block;
+      visibility: visible;
+      opacity: 1;
+      transition: visibility 0s, opacity 0.3s linear;
+    }
+  }
+  
