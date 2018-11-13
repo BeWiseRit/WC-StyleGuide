@@ -1,0 +1,1 @@
+Mixed headings style for all top level headings.

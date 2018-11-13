@@ -1,1 +1,1 @@
-.bold class used for mixed headings styles
+.bold for headings using `<h2>`

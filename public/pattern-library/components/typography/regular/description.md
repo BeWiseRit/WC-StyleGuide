@@ -1,1 +1,1 @@
-.regular for all standard headings
+.regular for headings using `<h2>`.
