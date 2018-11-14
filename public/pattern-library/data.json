@@ -128,12 +128,14 @@
                 {
                     "group": "navigation",
                     "name": "default",
-                    "title": "Primary Navigation"
+                    "title": "Primary Navigation",
+                    "width": "full"
                 },
                 {
                     "group": "navigation",
                     "name": "alternative",
-                    "title": "Alternative Navigation"
+                    "title": "Alternative Navigation",
+                    "width": "full"
                 }
             ]
         }
