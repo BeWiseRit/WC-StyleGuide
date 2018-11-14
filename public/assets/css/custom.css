@@ -61,12 +61,13 @@ button.bg-primary:hover {
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
-
-
 .btn-primary {
     color: #fff !important;
     background-color: #791714 !important;
     border-color: #791714 !important;
+}
+.btn-primary a {
+    color: #fff !important;
 }
 
 .btn-primary:hover {

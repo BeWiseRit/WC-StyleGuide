@@ -1,0 +1,1 @@
+Base images are to be used in each `<section>` of the website with a minor grey overlay so the images to not take away from the Wiser Connect colours.

@@ -116,7 +116,7 @@
                 {
                     "group": "buttons",
                     "name": "default",
-                    "title": "Default Button",
+                    "title": "Default Buttons",
                     "width": "half"
                 }
             ]
@@ -129,13 +129,50 @@
                     "group": "navigation",
                     "name": "default",
                     "title": "Primary Navigation",
-                    "width": "full"
+                    "width": "full",
+                    "options": {
+                        "sample_min_height": 240
+                    }
                 },
                 {
                     "group": "navigation",
                     "name": "alternative",
                     "title": "Alternative Navigation",
-                    "width": "full"
+                    "width": "full",
+                    "options": {
+                        "sample_min_height": 330
+                    }
+                }
+            ]
+        },
+        {
+            "name": "images",
+            "title": "Images",
+            "components": [
+                {
+                    "group": "images",
+                    "name": "download",
+                    "title": "Download Images",
+                    "width": "half"
+                },
+                {
+                    "group": "images",
+                    "name": "standard",
+                    "title": "Base Images",
+                    "width": "full",
+                    "options": {
+                        "disable_code_sample": true
+                    }
+
+                },
+                {
+                    "group": "images",
+                    "name": "accents",
+                    "title": "Page Accents",
+                    "width": "full",
+                    "options": {
+                        "disable_code_sample": true
+                    }
                 }
             ]
         }

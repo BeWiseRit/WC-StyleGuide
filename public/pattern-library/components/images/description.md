@@ -1,0 +1,1 @@
+All images used should be from our assets which can be downloaded below. Files are uncompressed and at full resolution.
