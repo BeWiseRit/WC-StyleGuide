@@ -8,6 +8,6 @@ You can use any styleguide for code standard such as Airbnb, but ultimely some o
 
 # Key design choices
 
-* __Single Page__ application.
+* __Single Page__ This should be a single page application.
 * __3 Click Rule__ you should be able to get to any page on the website within 3 clicks.
 * __Bootstrap__ you can develop the site using vanilla bootstrap but overrides will need to be implemented for our custom colour schemes.
